@@ -23,6 +23,18 @@ The task involves creating an automated script that:
    ```sh
    export GITHUB_TOKEN='your_github_personal_access_token_here'
 
+
+#### Configuration Settings
+Before running the script, make sure to configure the settings in the script according to your project:
+```python
+# Configuration
+start_commit_id = '17884628603c13c19ba11cbd5eafeb10955870db'  # Replace with your start commit ID
+end_commit_id = '3c70fec324e36be898da18cee54d512535c6ecac'  # Replace with your end commit ID
+github_token = 'token_here'  # Replace with your GitHub token
+owner = 'synfig'  # Replace with your GitHub username or organization name
+repo = 'synfig'  # Replace with your GitHub repository name
+mode = 'simple'  # Use 'simple' for weekly notes or 'full' for detailed release notes
+```
    
 #### Usage Instructions
 1. Ensure you have Python installed (recommended version: Python 3.6 or higher).
