@@ -22,3 +22,26 @@ The task involves creating an automated script that:
 
    ```sh
    export GITHUB_TOKEN='your_github_personal_access_token_here'
+
+   
+#### Usage Instructions
+1. Ensure you have Python installed (recommended version: Python 3.6 or higher).
+2. Clone the repository containing your project.
+3. Navigate to the directory containing the scripts.
+4. Set up the environment variable for your GitHub token as mentioned above.
+5. Run the script using the following command:
+
+```bash
+python script_name.py
+```
+
+Replace script_name.py with the name of the script you want to execute (main.py in this case).
+
+### Dependencies
+This script has the following dependencies:
+
+requests library for making HTTP requests to the GitHub API.
+
+### System Requirements
+Required Python version: Python 3.6 or higher.
+Supported Operating Systems: Any OS that supports Python (Windows, macOS, Linux).
